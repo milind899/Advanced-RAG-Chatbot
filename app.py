@@ -572,3 +572,26 @@ st.markdown("""
     <p>💡 Tip: Use GPU acceleration for 10x faster processing!</p>
 </div>
 """, unsafe_allow_html=True)
+# Footer
+st.markdown("---")
+st.markdown("""
+<div style="text-align: center; color: #666; padding: 1rem;">
+    <p>🚀 Advanced RAG Chatbot | Built with Streamlit, LangChain & GPU Acceleration</p>
+    <p>💡 Tip: Use GPU acceleration for 10x faster processing!</p>
+</div>
+""", unsafe_allow_html=True)
+
+# Developer credits
+st.markdown("""
+<div style="text-align: center; margin-top: 2rem;">
+    <h4>Developed by</h4>
+    <p>
+        <a href="https://www.linkedin.com/in/milind899/" target="_blank">Milind Shandilya</a> | 
+        <a href="https://www.linkedin.com/in/akashsingh06" target="_blank">Akash Singh</a> | 
+        <a href="https://www.linkedin.com/in/nallaguntla-charan-sai-765852287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Charan Sai</a>
+    </p>
+    <p>
+        <a href="https://github.com/milind899/Advanced-RAG-Chatbot" target="_blank">GitHub Repository</a>
+    </p>
+</div>
+""", unsafe_allow_html=True)
