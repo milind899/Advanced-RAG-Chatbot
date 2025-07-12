@@ -1,0 +1,48 @@
+# Core Dependencies
+streamlit>=1.28.0
+langchain>=0.0.350
+langchain-community>=0.0.20
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+# Use faiss-gpu if you have GPU: faiss-gpu>=1.7.4
+
+# PDF Processing
+PyMuPDF>=1.23.0
+pymupdf>=1.23.0
+
+# Text Processing
+tiktoken>=0.5.0
+unstructured>=0.10.0
+
+# Embeddings
+huggingface-hub>=0.17.0
+
+# Vector Database
+chromadb>=0.4.0
+
+# API & HTTP
+requests>=2.31.0
+httpx>=0.25.0
+
+# Async Processing
+aiofiles>=23.2.0
+
+# Data Visualization
+plotly>=5.15.0
+pandas>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+typing-extensions>=4.7.0
+
+# Optional: For better performance
+# accelerate>=0.21.0
+# bitsandbytes>=0.41.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
